@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
     vendor/motorola/payton/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
     vendor/motorola/payton/proprietary/vendor/lib/libseestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseestraight.so \
-    vendor/motorola/payton/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/motorola/payton/proprietary/vendor/lib/libtruescanner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtruescanner.so \
     vendor/motorola/payton/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/motorola/payton/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
@@ -116,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
-    vendor/motorola/payton/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
     vendor/motorola/payton/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/motorola/payton/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/motorola/payton/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
@@ -164,6 +162,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/motorola/payton/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/motorola/payton/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
+    vendor/motorola/payton/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/motorola/payton/proprietary/vendor/etc/camera/mot_s5k2l7sa_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k2l7sa_chromatix.xml \
+    vendor/motorola/payton/proprietary/vendor/etc/camera/mot_s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k3p8sp_chromatix.xml \
+    vendor/motorola/payton/proprietary/vendor/etc/camera/mot_s5k4h8_aux_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k4h8_aux_chromatix.xml \
     vendor/motorola/payton/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/motorola/payton/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/motorola/payton/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -281,6 +283,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/motorola/payton/proprietary/vendor/lib/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a5xx.so \
     vendor/motorola/payton/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
+    vendor/motorola/payton/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
     vendor/motorola/payton/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/motorola/payton/proprietary/vendor/lib/libchromatix_imx386_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx386_4k_video_3a.so \
     vendor/motorola/payton/proprietary/vendor/lib/libchromatix_imx386_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx386_common.so \
@@ -413,6 +416,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneqmiutils.so \
     vendor/motorola/payton/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/motorola/payton/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
+    vendor/motorola/payton/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
     vendor/motorola/payton/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/motorola/payton/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     vendor/motorola/payton/proprietary/vendor/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdualcameraddm.so \
@@ -461,6 +465,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
+    vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_depth_map.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_depth_map.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
@@ -527,6 +532,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_mot_ov5695_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov5695_eeprom.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7sa.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7sa_eeprom.so \
+    vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_mot_s5k2l7sa_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k2l7sa_pdaf.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_mot_s5k3p8sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3p8sp.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_mot_s5k3p8sp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3p8sp_eeprom.so \
     vendor/motorola/payton/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
@@ -612,6 +618,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/motorola/payton/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
     vendor/motorola/payton/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
+    vendor/motorola/payton/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/motorola/payton/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
     vendor/motorola/payton/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/motorola/payton/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
@@ -721,6 +728,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a5xx.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
+    vendor/motorola/payton/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchromaflash.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
@@ -839,6 +847,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/payton/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
+    vendor/motorola/payton/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_detected_face_hal.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libts_face_beautify_hal.so \
     vendor/motorola/payton/proprietary/vendor/lib64/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libubifocus.so \
